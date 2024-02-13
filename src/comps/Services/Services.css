@@ -1,0 +1,119 @@
+.Services-text {
+  text-align: center;
+}
+.Services-text > h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+.Services-text > h2 {
+  margin-top: -90px;
+  position: relative;
+  color: #ffffff13;
+  font-size: 8rem;
+}
+.Services-text > p {
+  margin: 0 20px;
+  margin-top: -40px;
+  position: relative;
+  color: #ffffff96;
+  font-size: 1.3rem;
+}
+
+.cards-1 {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-info-1 {
+  cursor: pointer;
+  width: 30%;
+  height: 200px;
+  text-align: center;
+  padding: 2rem 3rem;
+  background-color: #1a1a1a;
+  margin: 1rem 1rem;
+}
+.card-info-1:hover {
+  transition-duration: 0.7s;
+  background-color: #ffbd39;
+}
+.card-info-1:hover .card-icons {
+  color: #fff;
+}
+
+.card-icons {
+  padding-bottom: 20px;
+  color: #ffbd39;
+  font-size: 5rem;
+}
+.card-info-1 > h1 {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.card-info-1 > p {
+  color: #ffbd39;
+}
+.card-info-1:hover h1 {
+  color: black;
+}
+.card-info-1:hover p {
+  color: black;
+}
+
+@media (max-width: 992px) {
+  .Services-text > h1 {
+    font-size: 3.5rem;
+  }
+  .Services-text > h2 {
+    margin-top: -90px;
+    font-size: 7.5rem;
+  }
+  .Services-text > p {
+    margin: 0 0px;
+    margin-top: -40px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 769px) {
+  .card-info-1 {
+    width: 40%;
+    height: 200px;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    margin: 0.8rem 0.8rem;
+  }
+}
+@media (max-width: 578px) {
+  .Services-card {
+    align-items: center;
+  }
+  .cards-1 {
+    margin-left: 10%;
+    flex-wrap: wrap;
+    display: block;
+  }
+  .card-info-1 {
+    width: 90%;
+    overflow: hidden;
+    height: 200px;
+    background-color: #1a1a1a;
+  }
+  .Services-text > h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .Services-text > h2 {
+    margin-top: -25px;
+    font-size: 1rem;
+  }
+  .Services-text > p {
+    margin-top: -0px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .cards-1 {
+    margin-left: 3%;
+  }
+}

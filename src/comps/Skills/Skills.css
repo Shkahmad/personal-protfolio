@@ -1,0 +1,166 @@
+.Skill-text {
+  text-align: center;
+}
+.Skill-text > h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+.Skill-text > h2 {
+  margin-top: -90px;
+  position: relative;
+  color: #ffffff13;
+  font-size: 8rem;
+}
+.Skill-text > p {
+  margin: 0 20px;
+  margin-top: -40px;
+  position: relative;
+  color: #ffffff96;
+  font-size: 1.3rem;
+}
+
+.container-skills {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.skillbar-info {
+  gap: 40px;
+  display: flex;
+}
+.container-skills .skill-box {
+  width: 100%;
+  margin: 20px 0;
+}
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.skill-bar {
+  height: 13px;
+  border-radius: 5px;
+  margin-top: 6px;
+  width: 100%;
+  background-color: #1a1a1a;
+}
+.skill-perPhotoshop {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perjQuery {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 95%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perHTML5 {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 98%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perCSS3 {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perWordPress {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 40%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+.skill-perSEO {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 95%;
+  border-radius: 6px;
+  background-color: #ffbd39;
+  animation: progress 2s ease-in-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.toolti {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border: none;
+  border-radius: 10px;
+  z-index: 1;
+}
+.toolti::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 10px;
+  z-index: -1;
+  height: 10px;
+  transform: translateX(-50%) rotate(45deg);
+}
+
+@media (max-width: 992px) {
+  .Skill-text > h1 {
+    font-size: 3.5rem;
+  }
+  .Skill-text > h2 {
+    margin-top: -90px;
+    font-size: 7.5rem;
+  }
+  .Skill-text > p {
+    margin: 0 0px;
+    margin-top: -40px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 577px) {
+  .Skill-text > h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .Skill-text > h2 {
+    margin-top: -25px;
+    font-size: 1rem;
+  }
+  .Skill-text > p {
+    margin-top: -0px;
+    font-size: 1rem;
+  }
+  .skillbar-info {
+    gap: 40px;
+    display: block;
+  }
+}

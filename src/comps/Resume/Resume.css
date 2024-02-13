@@ -1,0 +1,123 @@
+.resume-text {
+  text-align: center;
+}
+.resume-text > h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+.resume-text > h2 {
+  margin-top: -90px;
+  position: relative;
+  color: #ffffff13;
+  font-size: 8rem;
+}
+.resume-text > p {
+  margin: 0 20px;
+  margin-top: -40px;
+  position: relative;
+  color: #ffffff96;
+  font-size: 1.3rem;
+}
+.card-info {
+  margin-top: 50px;
+}
+.cards {
+  display: flex;
+}
+.single-card {
+  border-radius: 10px;
+  padding: 1.5rem 1rem;
+  margin: 0.8rem 0.8rem;
+  background-color: #1a1a1a;
+}
+.single-card > h2 {
+  color: #ffbd39;
+  font-size: 1.8rem;
+}
+.single-card > h1 {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-top: 15px;
+}
+.single-card > h3 {
+  color: #ffffff5b;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.single-card > p {
+  color: #ffffff5b;
+  margin-top: 30px;
+  font-size: 1.2rem;
+}
+h5 {
+  margin-top: 20px;
+  text-align: center;
+}
+h5 .resume-btn {
+  background-color: #ffbd39;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+h5 .resume-btn:hover {
+  transition-duration: 0.3s;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid #134880;
+}
+
+@media (max-width: 992px) {
+  .resume-text > h1 {
+    font-size: 3.5rem;
+  }
+  .resume-text > h2 {
+    margin-top: -90px;
+    font-size: 7.5rem;
+  }
+  .resume-text > p {
+    margin: 0 0px;
+    margin-top: -40px;
+    font-size: 1rem;
+  }
+  .single-card {
+    padding: 1rem 0.8rem;
+    margin: 0.5rem 0.5rem;
+  }
+  .single-card > h2 {
+    font-size: 1.5rem;
+  }
+  .single-card > h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .single-card > h3 {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  .single-card > p {
+    color: #ffffff5b;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 769px) {
+  .cards {
+    display: block;
+  }
+  .single-card {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .resume-text > h1 {
+    color: #fff;
+    font-size: 2rem;
+  }
+  .resume-text > h2 {
+    margin-top: -25px;
+    font-size: 1rem;
+  }
+  .resume-text > p {
+    margin-top: -0px;
+    font-size: 1rem;
+  }
+}

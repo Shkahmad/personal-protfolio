@@ -1,0 +1,60 @@
+.logo {
+  color: #fff;
+}
+.logo:hover {
+  color: #fff;
+}
+.bar-icon {
+  background-color: #fff;
+}
+
+.collapse {
+  justify-content: end;
+}
+.collapse > ul > li {
+  margin: 0 0.7rem;
+}
+.collapse > ul > li > a {
+  color: #fff;
+  position: relative;
+}
+.collapse > ul > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ffbd39;
+  transform: scaleX(0);
+}
+.collapse > ul > li > a:hover::after {
+  transition-duration: 0.5s;
+  transform: scaleX(1);
+}
+.collapse > ul > li > a:hover {
+  color: #ffbd39;
+}
+.collapse > ul > li > a:focus {
+  color: #fff;
+}
+.logo:focus {
+  color: #fff;
+}
+.collapse > ul > li > .acti {
+  color: #ffbd39;
+}
+.navbar {
+  background-color: black;
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    display: none;
+  }
+}
+/* @media(min-width:390px) {
+ .container{
+  display: none;
+ }
+} */
