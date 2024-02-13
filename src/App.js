@@ -10,6 +10,7 @@ import Projects from "./comps/Projects/Projects";
 import Blog from "./comps/Blog/Blog";
 import ContactMe from "./comps/Contactme/ContactMe";
 import Footer from "./comps/Footer/Footer";
+import Hero from "./comps/Hero/Hero";
 
 const App = () => {
   const [isloading, setisloader] = useState(true);
@@ -26,6 +27,7 @@ const App = () => {
   ) : (
     <div>
       <Navbar />
+      <Hero/>
       <About />
       <br />
       <br />

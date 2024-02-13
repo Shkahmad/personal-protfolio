@@ -66,8 +66,7 @@ const About = () => {
                     color: "#ffbd39",
                     fontsize: "1.5rem",
                   }}
-                >
-                  Project complete
+                > Project complete
                 </span>
               </h3>
             </ScrollTrigger>
