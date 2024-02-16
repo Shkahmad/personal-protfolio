@@ -1,9 +1,4 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  text-decoration: none;
-}
+
 .blog-text {
   text-align: center;
 }
@@ -221,5 +216,10 @@
 @media (max-width: 450px) {
   .card-count {
     padding: 2rem 7rem;
+  }
+}
+@media (max-width: 400px) {
+  .blog-bg-img {
+    display: none;
   }
 }

@@ -11,6 +11,9 @@ import Blog from "./comps/Blog/Blog";
 import ContactMe from "./comps/Contactme/ContactMe";
 import Footer from "./comps/Footer/Footer";
 import Hero from "./comps/Hero/Hero";
+import MobileNavbar from "./compsmobile/MobileNavbar/MobileNavbar";
+import MobileAbout from "./compsmobile/MobileAbout/MobileAbout";
+
 
 const App = () => {
   const [isloading, setisloader] = useState(true);
@@ -26,6 +29,27 @@ const App = () => {
     <Loader />
   ) : (
     <div>
+
+
+      <MobileAbout/>
+      <MobileNavbar/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Navbar />
       <Hero/>
       <About />
@@ -50,6 +74,18 @@ const App = () => {
       <br />
       <br />
       <Footer />
+
+     
+    
+
+
+
+
+
+
+
+
+
     </div>
   );
 };

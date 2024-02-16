@@ -1,0 +1,21 @@
+.bg-1{
+
+    bottom: 0%;
+    z-index: 999;
+    position: sticky;
+}
+.mobile-nav{
+    display: flex;
+    background-color: aqua;
+}
+.mobile-nav>ul>li{
+    list-style: none;
+}
+
+
+
+@media(min-width:401px){
+    .hello{
+        display: none;
+    }
+}

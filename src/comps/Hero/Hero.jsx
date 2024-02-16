@@ -1,6 +1,5 @@
 import React,{useEffect} from 'react'
 import './Hero.css'
-// import White from '../images/White.png'
 import black from '../images/black.jpg'
 import bg1 from '../images/bg1.png'
 import bg2 from '../images/bg2.png'
